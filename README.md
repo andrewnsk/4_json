@@ -1,12 +1,12 @@
 # Prettify JSON
 
-Скрипт, который на вход принимает путь до файла с произвольными данными
-в формате JSON и выводит его содержимое в консоль в удобном для чтения виде,
-так называемый Pretty Print
+A script that takes the input to a path to a file with arbitrary data
+in JSON format and displays its content in the console in an easy-to-read form,
+the so-called Pretty Print
 
 #
 
-Пример запуска скрипта на Linux, Python 3.5:
+An example of running a script on Linux, Python 3.5:
 
 ```bash
 
@@ -14,7 +14,7 @@ $ python pprint_json.py <path to file>
 ```
 
 
-Пример вывода:
+Example output:
 
 ```json
 {
