@@ -13,6 +13,7 @@ An example of running a script on Linux, Python 3.5:
 $ python pprint_json.py <path to file>
 ```
 
+You can download json data from https://data.mos.ru/opendata/1854 (-> Скачать -> .json )
 
 Example output:
 
