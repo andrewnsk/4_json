@@ -3,12 +3,12 @@ import json
 
 
 def load_data(filepath):
-    with open(filepath, 'r') as handle:
-        return json.load(handle)
+    with open(filepath, 'r') as file:
+        return json.load(file)
 
 
 def pretty_print_json(json_data):
-    print(json.dumps(json_data, indent=4, sort_keys=True))
+    print(json.dumps(json_data, ensure_ascii=False, indent=4, sort_keys=True))
 
 
 if __name__ == '__main__':
